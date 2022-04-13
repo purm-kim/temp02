@@ -559,7 +559,13 @@ h1, h2, h3, h4, h5, h6 {
 .se03 .section_contents #tabs .con_wrap {
   float: right;
   width: 60%;
-  height: 700rem;
+  height: 800rem;
+}
+
+@media (max-width: 768px) {
+  .se03 .section_contents #tabs .con_wrap {
+    height: 700rem;
+  }
 }
 
 .se03 .section_contents #tabs .con_wrap .tab_content {

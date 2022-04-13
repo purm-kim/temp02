@@ -350,7 +350,10 @@ h1, h2, h3, h4, h5, h6{margin: 0;}
       .con_wrap{
         float: right;
         width: 60%;
-        height: 700rem;
+        height: 800rem;
+        @include mq(mobile){
+          height: 700rem;
+        }
         // background-color: #c4c4c4;
         .tab_content{
           width: 100%;
